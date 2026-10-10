@@ -9,6 +9,16 @@
 - macOS 14 or later.
 - Your own extracted copy of P.T. (CUSA01127). No game files are included.
 
+##DISPLAY & PERFORMANCE
+
+MacBooks equipped with Liquid Retina displays use a 2× Retina scaling factor, resulting in a significantly higher rendering workload when operating at full native pixel density.
+
+This scaling can increase the effective pixel count by up to four times compared to rendering at the equivalent 1× logical resolution, placing additional demands on the GPU and potentially reducing frame rates.
+
+For optimal performance, using an external monitor at a less demanding rendering resolution is recommended. This can substantially reduce GPU overhead, improve frame rate stability, and provide a smoother overall gameplay experience.
+
+Alternatively, lowering the in-game rendering resolution or enabling supported upscaling technologies, such as MetalFX Spatial or FSR 2.2, may help mitigate the performance impact.
+
 ## SAVE DATA
 Save files, settings, logs, and cache are stored in:
 `~/Library/Application Support/org.ptpc.mac.guardado/`
